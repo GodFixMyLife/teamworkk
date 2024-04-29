@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0 !important;
+    margin: 0;
     padding: 0;
 }
 
@@ -70,11 +70,13 @@ body {
 .section1-h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
+    margin: 0;
 }
 
 .section1-article {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
+    margin: 0;
 }
 
 .section1-btn {
@@ -118,12 +120,76 @@ body {
 
 .div-offers {
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    align-items: center;
+    gap: 7%;
+    background: url(src/images/bg-section1.png) no-repeat;
+    background-size: cover;
+    padding-top: 165px;
 }
 
 .div-h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
-    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.div-advantages {
+    padding-right: 4%;
+    width: 100%;
+}
+
+.div-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.section1-icontext {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 11.5%;
+}
+
+.racket-image {
+    padding-bottom: 8px;
+}
+
+.div-h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.div-p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-bottom: 32px;
+}
+
+.div-logo {
+    padding-bottom: 8px;
+}
+
+.order-div-h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.order-div-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.offers-btn {
+    width: 106px;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+
+.order-div, .section1-rocketcard {
+    width: fit-content;
 }
