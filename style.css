@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -59,4 +65,65 @@ body {
     padding-left: 18px;
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+.section1-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.section1-article {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.section1-btn {
+    font-family: 'Roboto', 'sans-serif';
+    padding-right: 16px;
+    border-radius: 30px;
+    border-color: #BBF330;
+    color: #2C2C2C;
+    font-weight: medium;
+    font-size: 13px;
+    line-height: 150%;
+    background-color: #BBF330;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.section1-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 28px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.div-img {
+    width: 40%;
+}
+
+.section1-div {
+    width: 40%;
+}
+
+.div-offers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    justify-content: center;
 }
