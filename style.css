@@ -248,6 +248,8 @@ body {
 .section3 {
   padding-left: 16px;
   background-image: url(src/images/bg-section3.png);
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 .div-text-h1 {
   font-weight: bold;
