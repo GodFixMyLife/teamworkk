@@ -196,6 +196,44 @@ body {
   color: #2C2C2C;
   padding-left: 16px;
 }
+
+.section2 {
+  margin-top: 100px;
+}
+
+.section2-h1 {
+  font-family: 'Roboto', 'sans-serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+}
+
+.section2-p {
+  font-family: 'Roboto', 'sans-serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.div-dishes {
+  display: flex;
+  align-items: center;
+  gap: 2.5%;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.section2-cards {
+  width: 31.6%;
+  margin-bottom: 32px;
+}
+
+.section2-cards img {
+  width: 100%;
+}
+
 .div-text-p {
   font-weight: normal;
   font-size: 16px;
