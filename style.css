@@ -252,6 +252,8 @@ body {
   background-size: 100%
 }
 .div-text-h1 {
+  padding-top: 100px;
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 42px;
   font-family: 'Roboto', 'sans-serif';
@@ -260,6 +262,7 @@ body {
 .div-text-p {
   font-weight: normal;
   font-size: 16px;
+  margin-bottom: 32px;
   font-family: 'Roboto', 'sans-serif';
   color: #2C2C2C;
 }
@@ -281,6 +284,7 @@ body {
 .div-review-author {
   display: flex;
   gap: 16px;
+  padding-left: 14px;
   align-items: center;
 }
 .div-review-author img {
