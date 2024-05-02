@@ -239,12 +239,6 @@ body {
   color: #2C2C2C;
   padding-left: 16px;
 }
-.div-review {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .section3 {
   padding-left: 16px;
   background-image: url(src/images/bg.section3.png);
@@ -272,6 +266,7 @@ body {
   padding-right: 9.6%;
 }
 .div-review {
+  display: flex;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 14px;
@@ -280,6 +275,12 @@ body {
   width: 501px;
   height: 227px;
   background-color: #FEFEFE;
+}
+.div-review-img {
+  margin-bottom: 28px;
+}
+.div-reviews-p {
+  margin-bottom: 40px;
 }
 .div-review-author {
   display: flex;
@@ -290,6 +291,9 @@ body {
 .div-review-author img {
   width: 40px;
   height: 40px;
+}
+.div-name {
+  margin-bottom: 2px;
 }
 .div-regestration {
   padding-left: 17px;
