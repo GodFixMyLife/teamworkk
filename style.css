@@ -277,9 +277,13 @@ body {
 }
 .div-review-img {
   margin-bottom: 28px;
+  height: 16px;
 }
 .div-reviews-p {
   margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto', 'sans-serif';
 }
 .div-review-author {
   display: flex;
@@ -293,6 +297,14 @@ body {
 }
 .div-name {
   margin-bottom: 2px;
+  font-weight: medium;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 14px;
+}
+.div-lastname {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Roboto', 'sans-serif';
 }
 .div-regestration {
   padding-left: 17px;
@@ -302,17 +314,20 @@ body {
   font-weight: bold;
   font-size: 42px;
   font-family: 'Roboto', 'sans-serif';
+  margin-bottom: 20px;
   color: #2C2C2C;
 }
 .div-regestration-p {
   font-weight: normal;
   font-size: 16px;
+  margin-bottom: 24px;
   font-family: 'Roboto', 'sans-serif';
 }
 .div-input {
   width: 394px;
   height: 42px;
   border-color: 1px solid #FFE550;
+  border-radius: 30px;
   margin-right: 32px;
 }
 .div-regestration-btn {
