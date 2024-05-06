@@ -241,7 +241,8 @@ body {
 }
 .section3 {
   padding-left: 16px;
-  background-image: url(src/images/img-emblema.png);
+  background-image: url(src/images/bg-section3.png);
+  height: 647px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -271,6 +272,9 @@ body {
   width: 501px;
   height: 227px;
   background-color: #FEFEFE;
+}
+.div-reviews-p {
+  margin-bottom: 40px;
 }
 .div-review-author {
   display: flex;
