@@ -242,7 +242,6 @@ body {
 .section3 {
   padding-left: 16px;
   background-image: url(src/images/bg.section3.png);
-  height: auto;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -333,8 +332,12 @@ footer {
   padding-bottom: 100px;
   padding-left: 16px;
   padding-right: 16px;
+<<<<<<< HEAD
+  padding-top: 134px;
+=======
   padding-top: 100px;
   background: url(src/images/fruit-futer.png) no-repeat;
+>>>>>>> 6c0e419003179afcb01ae554c2524194fa7696be
 }
 
 .ul-footer {
