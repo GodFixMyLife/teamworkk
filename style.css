@@ -241,8 +241,8 @@ body {
 }
 .section3 {
   padding-left: 16px;
-  background-image: url(src/images/bg.section3.png);
-  height: auto;
+  background-image: url(src/images/bg-section3.png);
+  height: 647px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -251,7 +251,6 @@ body {
   font-size: 42px;
   font-family: 'Roboto', 'sans-serif';
   color: #2C2C2C;
-  padding-top: 100px;
 }
 .div-text-p {
   font-weight: normal;
@@ -268,7 +267,7 @@ body {
 }
 .div-review {
   padding-top: 14px;
-  padding-bottom: 134px;
+  padding-bottom: 14px;
   padding-left: 14px;
   padding-right: 14px;
   border-radius: 0px 30px 30px 30px;
@@ -280,7 +279,7 @@ body {
   margin-bottom: 40px;
 }
 .div-review-img {
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 }
 .div-review-author {
   display: flex;
@@ -312,7 +311,6 @@ body {
   height: 42px;
   border-color: 1px solid #FFE550;
   margin-right: 32px;
-  border-radius: 30px;
 }
 .div-regestration-btn {
   border-radius: 30px;
@@ -323,7 +321,7 @@ body {
 }
 .banana-image {
   padding-right: 16px;
-  padding-top: 134px;
+  padding-top: 581px;
 }
 
 
