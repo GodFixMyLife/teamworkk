@@ -231,7 +231,6 @@ margin-bottom: 32px;
 .section2-cards img {
 width: 100%;
 }
-
 .div-text-p {
 font-weight: normal;
 font-size: 16px;
@@ -327,95 +326,4 @@ border-color: #BBF330;
 background-color: #BBF330;
 width: 103px;
 height: 42px;
-}
-
-footer {
-display: flex;
-justify-content: space-between;
-padding-bottom: 100px;
-padding-left: 16px;
-padding-right: 16px;
-<<<<<<< HEAD
-padding-top: 134px;
-=======
-padding-top: 100px;
-background: url(src/images/fruit-futer.png) no-repeat;
->>>>>>> 6c0e419003179afcb01ae554c2524194fa7696be
-}
-
-.ul-footer {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 28px;
-margin-left: 148px;
-}
-
-.footer-image {
-width: 66px;
-height: 52px;
-}
-
-.footer-li {
-list-style: none;
-}
-
-.footer-firs-div {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.div-rules {
-display: flex;
-margin-top: 129px;
-gap: 20px;
-}
-
-.rules-a {
-font-family: 'Roboto', 'sans-serif';
-font-size: 12px;
-color: #7EB101;
-}
-
-.div-subscribing-h3 {
-font-family: 'Roboto', 'sans-serif';
-font-size: 14px;
-font-weight: medium;
-margin-bottom: 12px;
-}
-
-.div-subscribing {
-width: 279px;
-height: 42px;
-border-radius: 20px;
-border-color: #FFE550;
-}
-
-.div-subscribing-btn {
-font-family: 'Roboto', 'sans-serif';
-width: 103px;
-height: 42px;
-border-radius: 20px;
-border-color: #7EB101;
-font-size: 13px;
-}
-
-.footer-column2-right {
-margin-top: 12px;
-font-family: 'Roboto', 'sans-serif';
-font-size: 12px;
-}
-
-.div-subscribing-a {
-color: #7EB101;
-}
-
-.div-subscribing-p2 {
-margin-top: 80px;
-text-align: right;
-}
-
-.div-subscribing {
-padding-left: 12px;
 }
