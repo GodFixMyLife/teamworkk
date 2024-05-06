@@ -242,7 +242,7 @@ body {
 .section3 {
   padding-left: 16px;
   background-image: url(src/images/bg.section3.png);
-  height: 647px;
+  height: auto;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -251,6 +251,7 @@ body {
   font-size: 42px;
   font-family: 'Roboto', 'sans-serif';
   color: #2C2C2C;
+  padding-top: 100px;
 }
 .div-text-p {
   font-weight: normal;
