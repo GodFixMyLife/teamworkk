@@ -268,7 +268,7 @@ body {
 }
 .div-review {
   padding-top: 14px;
-  padding-bottom: 14px;
+  padding-bottom: 134px;
   padding-left: 14px;
   padding-right: 14px;
   border-radius: 0px 30px 30px 30px;
@@ -280,10 +280,7 @@ body {
   margin-bottom: 40px;
 }
 .div-review-img {
-  margin-bottom: 28px;
-}
-.div-lastname {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 .div-review-author {
   display: flex;
@@ -326,7 +323,6 @@ body {
 }
 .banana-image {
   padding-right: 16px;
-  padding-top: 581px;
 }
 
 
