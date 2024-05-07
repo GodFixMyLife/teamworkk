@@ -240,7 +240,7 @@ padding-left: 16px;
 }
 .section3 {
   padding-left: 16px;
-  background-image: url(src/images/bg.section3.png);
+  background-image: url(src/images/rectangle.png);
   background-size: 100%;
   background-repeat: no-repeat;
   }
@@ -293,6 +293,8 @@ padding-left: 16px;
   .div-regestration {
   padding-left: 17px;
   padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
   }
   .div-regestration-h1 {
   font-weight: bold;
@@ -306,17 +308,14 @@ padding-left: 16px;
   font-family: 'Roboto', 'sans-serif';
   margin-bottom: 24px;
   }
-  .input-btn-image {
-  display: flex;
-  justify-content: space-between;
-  }
-  .banana-image {
-   padding-right: 16px;
+  .div-btn-img {
+    display: flex;
+    justify-content: space-between;
   }
   .div-input {
   width: 394px;
   height: 42px;
-  border: 1px solid #FFE550;
+  border-color: #FFE550;
   margin-right: 32px;
   border-radius: 30px;
   }
