@@ -425,3 +425,13 @@ padding-left: 16px;
   .div-subscribing {
     padding-left: 12px;
   }
+
+  @media (max-width: 768px) {
+    .header-logo {
+      padding-left: 32px;
+      margin-right: 191px;
+    }
+    .header-btn {
+      padding-right: 32px;
+    }
+  }
