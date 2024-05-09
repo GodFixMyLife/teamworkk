@@ -19,13 +19,14 @@ padding-top: 28px;
 }
 .header-logo {
 padding-left: 16px;
+margin-right: 24.8%;
 }
 .menu {
 display: flex;
 align-items: center;
 justify-content: center;
 gap: 28px;
-margin-right: 30px;
+margin-right: 3.9%;
 }
 .menu-link {
 text-decoration: none;
@@ -429,8 +430,5 @@ padding-left: 16px;
     body {
       padding-left: 32px;
       padding-right: 32px;
-    }
-    .header {
-      justify-content: space-between;
     }
   }
