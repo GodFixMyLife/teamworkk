@@ -316,17 +316,25 @@ padding-left: 16px;
   width: 394px;
   height: 42px;
   border-color: #FFE550;
+  padding-left: 11px;
   margin-right: 32px;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: 'Roboto', 'sans-serif';
+  color: #505050;
   border-radius: 30px;
   }
   .div-regestration-btn {
   border-radius: 30px;
   border-color: #BBF330;
   background-color: #BBF330;
+  font-weight: medium;
+  font-size: 13px;
+  font-family: 'Roboto', 'sans-serif';
   width: 103px;
   height: 42px;
   }
-
+  
   footer {
     display: flex;
     justify-content: space-between;
