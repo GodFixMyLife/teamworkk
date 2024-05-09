@@ -427,11 +427,11 @@ padding-left: 16px;
   }
 
   @media (max-width: 768px) {
-    .header-logo {
+    body {
       padding-left: 32px;
-      margin-right: 191px;
-    }
-    .header-btn {
       padding-right: 32px;
+    }
+    .header-logo {
+      margin-right: 24.8%;
     }
   }
