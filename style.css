@@ -19,14 +19,14 @@ padding-top: 28px;
 }
 .header-logo {
 padding-left: 16px;
-margin-right: 24.8%;
+margin-right: 57.4%;
 }
 .menu {
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 28px;
-margin-right: 3.9%;
+gap: 2.1%;
+margin-right: 2.3%;
 }
 .menu-link {
 text-decoration: none;
@@ -431,4 +431,11 @@ padding-left: 16px;
       padding-left: 32px;
       padding-right: 32px;
     }
+    .header-logo {
+      margin-right: 24.8%;
+      }
+    .menu {
+      margin-right: 3.9%;
+    }
   }
+  
