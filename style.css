@@ -14,11 +14,10 @@ padding: 0;
 .header {
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 padding-top: 28px;
 }
 .header-logo {
-margin-right: 735px;
 padding-left: 16px;
 }
 .menu {
@@ -431,7 +430,7 @@ padding-left: 16px;
       padding-left: 32px;
       padding-right: 32px;
     }
-    .header-logo {
-      margin-right: 24.8%;
+    .header {
+      justify-content: space-between;
     }
   }
