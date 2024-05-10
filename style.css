@@ -277,6 +277,8 @@ padding-left: 16px;
   }
   .div-reviews-p {
   margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: bold;
   }
   .div-review-img {
   margin-bottom: 16px;
@@ -289,6 +291,14 @@ padding-left: 16px;
   .div-review-author img {
   width: 40px;
   height: 40px;
+  }
+  .div-name {
+    font-size: 14px;
+    font-weight: medium;
+  }
+  .div-lastname {
+    font-size: 14px;
+    font-weight: normal;
   }
   .div-names {
     border-right: 1px solid #7EB101;
@@ -425,6 +435,9 @@ padding-left: 16px;
     }
     .header-logo {
       margin-right: 24.8%;
+      }
+      .menu-li {
+        font-weight: normal;
       }
     .section3 {
       padding-left: 32px;
