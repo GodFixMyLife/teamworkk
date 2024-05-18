@@ -22,13 +22,12 @@ body {
   .header-logo {
     padding-left: 16px;
     margin-right: 57.4%;
-    flex-grow: 1;
-}
-nav {
-  flex-grow: 3;
 }
 input[type="checkbox"], label {
   display: none;
+}
+.mobile {
+  color: #7EB101;
 }
   .menu {
     display: flex;
