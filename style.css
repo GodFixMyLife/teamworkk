@@ -26,9 +26,6 @@ body {
 input[type="checkbox"], label {
   display: none;
 }
-.mobile {
-  color: #7EB101;
-}
   .menu {
     display: flex;
     align-items: center;
@@ -479,7 +476,7 @@ padding-left: 16px;
    }
   }
   @media (max-width: 350px) {
-    nav {
+  nav {
       order: 1;
   }
   label {
@@ -541,13 +538,32 @@ padding-left: 16px;
       padding-top: 16px;
       padding-bottom: 16px;
       background-color: #FEFEFE;
-      box-shadow: 0px, 4px #696969 10%;
+      border-radius: 0 4px 0 0 rgba(105, 105, 105, 0.1);
     }
     .menu-li {
       margin-bottom: 16px;
     }
+    .menu-li2 .close-btn {
+      position: absolute;
+      top: 54px;
+      right: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    .close-btn {
+      width: 24px;
+      height: 24px;
+      top: 4px;
+      right: 4px;
+      background: none;
+      border: none;
+    }
     .menu-li2 {
         margin-bottom: 16px;
+        color: #000000;
+        text-decoration: none;
+        background-color: #BBF330;
     }
     .section3 {
       padding-left: 20px;
