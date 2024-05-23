@@ -481,7 +481,7 @@ padding-left: 16px;
     padding-left: 33px;
    }
   }
-  @media (max-width: 350px) {
+  @media (max-width: 550px) {
   nav {
       order: 1;
   }
