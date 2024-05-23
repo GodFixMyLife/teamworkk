@@ -480,6 +480,14 @@ padding-left: 16px;
     margin-right: 22px;
     padding-left: 33px;
    }
+   .section3-image {
+    order: 1;
+    padding-top: 46px;
+    margin-bottom: 20px;
+   }
+   .section3-text {
+    order: 2;
+   }
   }
   @media (max-width: 550px) {
   nav {
@@ -532,9 +540,11 @@ padding-left: 16px;
    }
     input[type="checkbox"]:checked ~ label .mobile::before {
       transform: rotate(0);
+      top: 0;
     }
     input[type="checkbox"]:checked ~ label .mobile::after {
       transform: rotate(90deg);
+      top: 0;
     }
     .menu {
       position: absolute;
