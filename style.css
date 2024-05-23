@@ -503,7 +503,7 @@ padding-left: 16px;
       transition: 0.3s;
     }
     .mobile {
-     top: 15px;
+     top: 0;
     }
     .mobile::after {
       top: 8px;
