@@ -335,6 +335,9 @@ padding-left: 16px;
       display: flex;
       justify-content: space-between;
     }
+  .regestration-img {
+    background-image: url(src/images/banan-section3.png);
+    }
     .div-input {
     width: 394px;
     height: 42px;
