@@ -267,12 +267,11 @@ padding-left: 16px;
   .div-review-cards {
   display: flex;
   justify-content: space-between;
-  padding-right: 9.6%;
   padding-left: 16px;
   padding-bottom: 134px;
+  gap: 139px;
   }
   .div-review1 {
-    margin-right: 139px;
     padding: 14px;
     border-radius: 0px 30px 30px 30px;
     background-color: #FEFEFE;
@@ -506,6 +505,10 @@ padding-left: 16px;
    }
   }
   @media (max-width: 550px) {
+  .header-logo {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
   nav {
       order: 1;
   }
@@ -550,6 +553,8 @@ padding-left: 16px;
     input[type="checkbox"]:checked ~ .menu {
       display: flex;
       flex-direction: column;
+      padding-right: 20px;
+      padding-top: 22px;
     }
     input[type="checkbox"]:checked ~ label .mobile {
       transform: rotate(-45deg);
