@@ -505,6 +505,30 @@ padding-left: 16px;
    .section3-text {
     order: 2;
    }
+  .footer {
+    padding-left: 33px;
+    flex-wrap: wrap;
+  }
+  .footer-image {
+    margin-right: 114px;
+  }
+  .ul-footer {
+    padding-right: 250px;
+  }
+  .div-column2 {
+    order: 1;
+  }
+  .div-rules {
+    order: 2;
+  }
+  .rules-a {
+    gap: 20px;
+    margin-right: 459px;
+  }
+  .div-subscribing-p2 {
+    order: 2;
+    padding-right: 32px;
+  }
   }
   @media (max-width: 550px) {
   .header-logo {
@@ -569,6 +593,7 @@ padding-left: 16px;
     }
     .menu {
       position: absolute;
+      align-items: start;
       right: 20px;
       top: 80px;
       gap: 0;
