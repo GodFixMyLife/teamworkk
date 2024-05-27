@@ -555,8 +555,6 @@ padding-left: 16px;
     input[type="checkbox"]:checked ~ .menu {
       display: flex;
       flex-direction: column;
-      padding-right: 20px;
-      padding-top: 22px;
     }
     input[type="checkbox"]:checked ~ label .mobile {
       transform: rotate(-45deg);
@@ -580,8 +578,8 @@ padding-left: 16px;
     }
     .menu-li {
       padding-left: 16px;
-      padding-right: 61px;
-      padding-bottom: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
       font-size: 16px;
     }
     .color {
@@ -591,8 +589,8 @@ padding-left: 16px;
         color: #000000;
         text-decoration: none;
         padding-left: 16px;
-        padding-right: 70px;
-        margin-bottom: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         font-size: 16px;
         font-weight: normal;
         background-color: #BBF330;
