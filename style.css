@@ -506,9 +506,7 @@ padding-left: 16px;
     order: 2;
    }
    .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
   }
   .footer-firs-div {
     display: flex;
@@ -517,7 +515,6 @@ padding-left: 16px;
   .footer-image {
     width: 33;
     height: 69px;
-    background-color: black;
     margin-right: 114px;
   }
   .ul-footer {
@@ -532,14 +529,8 @@ padding-left: 16px;
     text-decoration: none;
     color: black;
   }
-  .div-column2 {
-    order: 1;
-  }
-  .div-rules {
-    order: 2;
-  }
   .div-subscribing {
-    margin-right: 13px;
+    gap: 13px;
   }
   }
   @media (max-width: 550px) {
