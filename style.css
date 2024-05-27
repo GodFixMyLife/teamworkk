@@ -718,7 +718,7 @@ padding-left: 16px;
       padding-right: 116px;
     }
     .div-h2,.div-paragraph {
-      width: 65%;
+      width: 100%;
     }
     .section2-cards {
       flex-wrap: wrap;
@@ -729,4 +729,46 @@ padding-left: 16px;
       padding-right: 32px;
     }
   }
-  
+
+  @media (max-width: 550px) {
+    .div-img {
+      display: none;
+    }
+    .section1-div {
+      width: 100%;
+      margin-top: 60px;
+    }
+    .div-advantages {
+      width: 100%;
+      padding-left: 32px;
+    }
+    .section1-icontext {
+      flex-direction: column;
+    }
+    .apple-image {
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+    }
+    .div-offers {
+      padding-left: 0;
+    }
+    .offers-btn {
+      margin-top: 28px;
+    }
+    .section2-text {
+      text-align: center;
+      width: 65%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .section2-h1 {
+
+    }
+    .section2-cards {
+     width: 100%;
+    }
+    .section2-cards:nth-child(n+4) {
+      display: none;
+    }
+}
