@@ -529,18 +529,17 @@ padding-left: 16px;
     margin-top: 0;
     margin-right: 236px;
   }
+  .div-subscribing-p {
+    margin-bottom: 100px;
+  }
   .footer-column2-right {
     display: flex;
+    padding-bottom: 100px;
   }
   .div-subscribing-p2 {
     padding-right: 32px;
     margin-top: 0;
     }
-  .div-subscribing3 {
-    padding-bottom: 100px;
-  }
-
-
   }
 
   @media (max-width: 550px) {
