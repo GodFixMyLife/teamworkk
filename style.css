@@ -779,10 +779,9 @@ padding-left: 16px;
     .ul-footer {
       flex-direction: column;
       gap: 20px;
-      padding-right: 14.3%;
+      padding-right: 0;
     }
     .footer-image {
-      margin-right: 11.1%;
     }
     .div-rules {
       display: flex;
