@@ -779,20 +779,29 @@ padding-left: 16px;
     .ul-footer {
       flex-direction: column;
       gap: 20px;
+      padding-right: 14.3%;
+    }
+    .footer-image {
+      margin-right: 11.1%;
     }
     .div-rules {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 55px;
+      padding-left: 50px;
+      padding-right: 50px;
     }
     .footer-column1 {
-
+      
     }
     .div-subscribing-p2 {
-
+      text-align: center;
     }
     .footer-form {
-
+      width: 80%;
     }
     .div-subscribing-btn {
-
+     
     }
 }
