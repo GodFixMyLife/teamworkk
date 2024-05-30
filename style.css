@@ -524,14 +524,10 @@ padding-left: 16px;
     margin-bottom: 12px;
     margin-right: 13px;
   }
-  .div-subscribing2 {
-    order: 1;
-    margin-bottom: 100px;
-  }
   .div-rules {
-    order: 2;
     margin-right: 236px;
     margin-top: 0;
+    margin-right: 236px;
   }
   .footer-column2-right {
     display: flex;
