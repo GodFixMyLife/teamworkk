@@ -797,18 +797,18 @@ padding-left: 16px;
     .div-subscribing-p2 {
       text-align: center;
     }
-    .footer-form {
-      width: 80%;
-    }
     .footer-column2-right {
       flex-direction: column;
     }
     .footer-form {
+      width: 100%;
       display: flex;
-      align-items: end;
       flex-direction: column;
     }
     .div-subscribing {
-      width: 85%;
+      width: 100%;
+    }
+    .div-subscribing-btn {
+      align-self: end;
     }
 }
