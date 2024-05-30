@@ -800,7 +800,15 @@ padding-left: 16px;
     .footer-form {
       width: 80%;
     }
-    .div-subscribing-btn {
-     
+    .footer-column2-right {
+      flex-direction: column;
+    }
+    .footer-form {
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+    }
+    .div-subscribing {
+      width: 85%;
     }
 }
