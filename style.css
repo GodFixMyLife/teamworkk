@@ -522,8 +522,22 @@ padding-left: 16px;
   }
   .div-subscribing {
     margin-bottom: 12px;
+    margin-right: 13px;
   }
-  
+  .div-subscribing2 {
+    order: 1;
+    margin-bottom: 100px;
+  }
+  .div-rules {
+    order: 2;
+  }
+  .rules-a {
+    margin-right: 236px;
+  }
+  .div-subscribing-p2 {
+    padding-right: 32px;
+  }
+
   }
 
   }
