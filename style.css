@@ -545,7 +545,6 @@ padding-left: 16px;
 
   }
 
-  }
   @media (max-width: 550px) {
   .header-logo {
     padding-left: 20px;
@@ -770,5 +769,29 @@ padding-left: 16px;
     }
     .section2-cards:nth-child(n+4) {
       display: none;
+    }
+    .ul-footer {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .div-rules {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 55px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .footer-column1 {
+      padding-top: 60px;
+    }
+    .div-subscribing-p2 {
+      text-align: center;
+    }
+    .footer-form {
+      width: 80%;
+    }
+    .div-subscribing-btn {
+     padding-left: 200px;
     }
 }
