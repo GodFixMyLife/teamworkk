@@ -362,6 +362,7 @@ padding-left: 16px;
   footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 100px;
     padding-left: 16px;
     padding-right: 16px;
@@ -506,12 +507,23 @@ padding-left: 16px;
     order: 2;
    }
    .footer {
+    display: none;
     flex-wrap: wrap;
     padding-left: 32px;
+  }
+  .footer-image {
+    margin-bottom: 40px;
   }
   .ul-footer {
     padding-right: 250px;
   }
+  .div-subscribing-h3 {
+    margin-bottom: 12px;
+  }
+  .div-subscribing {
+    margin-bottom: 12px;
+  }
+  
   }
 
   }
